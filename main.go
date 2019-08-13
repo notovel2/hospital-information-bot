@@ -9,7 +9,13 @@ import (
 func main() {
 	fmt.Println("system started")
 	http.HandleFunc("/test", test)
-	http.ListenAndServe(":"+os.Getenv("PORT"), nil)
+	runServer()
+}
+
+func runServer() {
+	port := os.Getenv("PORT")
+	fmt.Println("running on port ", port)
+	http.ListenAndServe(":"+port, nil)
 }
 
 func test(w http.ResponseWriter, r *http.Request) {
