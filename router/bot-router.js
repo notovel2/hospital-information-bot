@@ -1,14 +1,17 @@
 import {Router} from 'express';
 import logger from '../utils/logger';
-
+import bodyParser from 'body-parser';
 var router = Router()
 router.get('/', (req, res) => {
   res.send('GET bot')
 })
 router.post('/', (req, res) => {
-  res.send('Bot')
+  console.log(req.body.queryResult.parameters);
+  
+  res.json({
+    "fulfillmentText": "This is a text response",
+  })
   logger.info('path: /bot/')
-  console.log('path: /bot/')
 })
 
 export default router
