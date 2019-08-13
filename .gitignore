@@ -1,1 +1,4 @@
-hospital-information-bot
+node_modules
+package-lock.json
+all.log
+error.log

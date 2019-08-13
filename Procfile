@@ -1,1 +1,0 @@
-web: hospital-information-bot
