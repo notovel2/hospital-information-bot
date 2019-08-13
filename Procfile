@@ -1,1 +1,1 @@
-web: go-api
+web: hospital-information-bot
