@@ -18,14 +18,9 @@
   },
   "homepage": "https://github.com/notovel2/hospital-information-bot#readme",
   "dependencies": {
-    "babel-cli": "^6.26.0",
     "express": "^4.17.1",
     "util": "^0.12.1",
-    "winston": "^3.2.1",
-    "@babel/cli": "^7.5.5",
-    "@babel/core": "^7.5.5",
-    "@babel/node": "^7.5.5",
-    "@babel/preset-env": "^7.5.5"
+    "winston": "^3.2.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.5",
