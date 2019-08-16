@@ -1,7 +1,7 @@
 import express from 'express';
 import botRouter from './router/bot-router';
 import bodyParser from 'body-parser';
-
+express.json()
 var app = express()
 app.use(bodyParser.json())
 app.use('/bot', botRouter)
