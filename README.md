@@ -1,13 +1,14 @@
 # hospital-information-bot
 
-# Frameworks
-  - Express.js
+# Tools
+  Frameworks
+    - Express.js
 
-# Cloud platform
-  - Google Dialogflow
+  Cloud platform
+    - Google Dialogflow
 
-# Server
-  - Heroku
+  Server
+    - Heroku
 
 Just make for self interesting
 
